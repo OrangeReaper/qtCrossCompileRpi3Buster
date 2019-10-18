@@ -22,13 +22,13 @@ Finally, prepare target folder
     sudo mkdir /usr/local/qt5pi
     sudo chown pi:pi /usr/local/qt5pi
 
-#Run the script
+# Run the script
 Simply:
 
     chmod +x qtCrossCompileRpi3Buster.sh
     ./qtCrossCompileRpi3Buster.sh
 
-#On Completion use the following settings in QT Creator
+# On Completion use the following settings in QT Creator
 C++ Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++
 
 C Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc
@@ -40,6 +40,6 @@ QT Version: /opt/qt5pi/qt5/bin/qmake
 #References & Thanks to
 [mechatronicsblog](https://mechatronicsblog.com/cross-compile-and-deploy-qt-5-12-for-raspberry-pi/)
 
-[[qt wiki](https://wiki.qt.io/RaspberryPi2EGLFS)
+[qt wiki](https://wiki.qt.io/RaspberryPi2EGLFS)
 
 
