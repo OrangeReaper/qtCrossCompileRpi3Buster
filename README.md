@@ -1,4 +1,5 @@
 # qtCrossCompileRpi3Buster
+
 This script creates a QT Creator cross-compile environment for a Rasberry Pi 3 (Buster Lite) on an Ubuntu 18.04.3LTS PC.
 
 Prior to running this script, on the Raspberry Pi you should do the following:
@@ -23,12 +24,14 @@ Finally, prepare target folder
     sudo chown pi:pi /usr/local/qt5pi
 
 # Run the script
+
 Simply:
 
     chmod +x qtCrossCompileRpi3Buster.sh
     ./qtCrossCompileRpi3Buster.sh
 
 # On Completion use the following settings in QT Creator
+
 C++ Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++
 
 C Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc
@@ -37,7 +40,8 @@ Debugger: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/b
 
 QT Version: /opt/qt5pi/qt5/bin/qmake
 
-#References & Thanks to
+# References & Thanks to
+
 [mechatronicsblog](https://mechatronicsblog.com/cross-compile-and-deploy-qt-5-12-for-raspberry-pi/)
 
 [qt wiki](https://wiki.qt.io/RaspberryPi2EGLFS)
