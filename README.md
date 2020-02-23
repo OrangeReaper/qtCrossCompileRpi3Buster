@@ -23,7 +23,7 @@ Finally, prepare target folder
     sudo mkdir /usr/local/qt5pi
     sudo chown pi:pi /usr/local/qt5pi
 
-# Run the script
+# (on Ubuntu PC) Run the script
 
 Simply:
 
@@ -32,11 +32,11 @@ Simply:
 
 # On Completion use the following settings in QT Creator
 
-C++ Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++
+C++ Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/c++
 
-C Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc
+C Compiler: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/gcc
 
-Debugger: /opt/qt5pi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gdb
+Debugger: /opt/qt5pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gdb
 
 QT Version: /opt/qt5pi/qt5/bin/qmake
 
